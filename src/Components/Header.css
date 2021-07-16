@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+    border-bottom: solid black 3px;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.search-icon-and-box-container {
+    position: relative;
+    bottom: 20px;
+}
+
+.search-icon {
+    position: relative;
+    display: inline-block;
+    top: 12px;
+    right: 4px;
+    stroke: black;
+    stroke-width: 1.2;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.MuiSvgIcon-root{
+    height: 1.3em !important;
+    width: 1.3em !important;
+}
+
+.search-box {
+    background-color: lightgrey;
+    margin-top: 45%;
+    border: 1px solid black;
+}
